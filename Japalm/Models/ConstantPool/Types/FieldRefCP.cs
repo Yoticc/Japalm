@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Japalm;
+﻿namespace Japalm;
 public class FieldRefCP : ConstantPoolEntry
 {
     public string Class;

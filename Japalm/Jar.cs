@@ -1,6 +1,4 @@
-﻿using System.IO.Compression;
-
-namespace Japalm;
+﻿namespace Japalm;
 public sealed class Jar
 {
     public readonly List<JarClass> Classes = [];

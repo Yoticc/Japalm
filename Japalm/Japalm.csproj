@@ -20,6 +20,7 @@
     <Using Include="System.Byte">
       <Alias>u1</Alias>
     </Using>
+    <Using Include="System.IO.Compression" />
     <Using Include="System.UInt16">
       <Alias>u2</Alias>
     </Using>

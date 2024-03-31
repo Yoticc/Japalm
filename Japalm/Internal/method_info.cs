@@ -1,4 +1,4 @@
-﻿internal class method_info
+﻿class method_info
 {
     public u2 access_flags;
     public u2 name_index;

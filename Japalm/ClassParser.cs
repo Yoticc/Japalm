@@ -1,8 +1,4 @@
-﻿using System.Runtime.InteropServices;
-using System.Text;
-using System.Text.Unicode;
-
-namespace Japalm;
+﻿namespace Japalm;
 public unsafe class ClassParser
 {
     static readonly Dictionary<ConstantType, int> ConstantInstanceSizes = new()
@@ -138,10 +134,9 @@ public unsafe class ClassParser
 
     internal static class_file ParseRaw(byte[] bytes)
     {
-        byte* original;
         byte* p;
         fixed (byte* ptr = bytes)
-            p = original = ptr;
+            p = ptr;
 
         var cls = new class_file();
 

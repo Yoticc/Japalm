@@ -1,6 +1,4 @@
-﻿using System.Linq;
-
-namespace Japalm;
+﻿namespace Japalm;
 public class JarClass : JarEntry
 {
     public JarClass(string path, Class cls) : base(path)

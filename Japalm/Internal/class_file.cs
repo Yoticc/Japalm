@@ -1,4 +1,4 @@
-﻿internal class class_file
+﻿class class_file
 {
     public u4 magic;
     public u2 minor_version;
